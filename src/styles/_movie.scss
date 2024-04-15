@@ -5,6 +5,10 @@
   height: 100vh;
   background-color: variables.$deepBlueColor;
   color: variables.$whiteColor;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
   
   .text--color {
     color: variables.$grayColor;
@@ -34,6 +38,10 @@
       max-width: 40%;
       font-size: 3em;
       font-weight: 800;
+
+      @media (max-width: 768px) {
+        max-width: 100%;
+      }
     }
   }
 

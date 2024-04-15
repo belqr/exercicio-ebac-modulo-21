@@ -1,16 +1,11 @@
 @use 'variables';
 @use 'header';
 @use 'movie';
+@use 'mobile';
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  background-image: url('../images/bg-grinch-dsk.jpeg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
 }

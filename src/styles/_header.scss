@@ -13,8 +13,41 @@
     justify-content: center;
     gap: 65px;
 
+    @media (max-width: 768px) {
+      height: 7vh;
+      padding-right: 12px;
+      gap: 0;
+      justify-content: space-between;
+    }
+
+    .menu--mobile {
+      display: none;
+      color: variables.$whiteColor;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        max-width: 100px;
+        padding: 0px 12px;
+        height: 6vh;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        transition: 0.2s ease;
+        cursor: pointer;
+
+        &:hover {
+          background-color: variables.$deepGrayColor;
+          color: variables.$whiteColor;
+        }
+      }
+    }
+
     .prime-logo {
       width: 110px;
+
+      @media (max-width: 768px) {
+        width: 100px;
+      }
     }
 
     .down-icon {
@@ -36,6 +69,10 @@
       display: flex;
       gap: 25px;
       align-items: center;
+
+      @media (max-width: 768px) {
+        display: none;
+      }
 
       div {
         width: max-content;
@@ -60,6 +97,13 @@
       align-items: center;
       gap: 25px;
 
+      .user--option {
+
+        @media (max-width: 768px) {
+          display: none;
+        }
+      }
+
       div {
         height: 6vh;
         display: flex;
@@ -81,6 +125,10 @@
         .user-icon {
           width: 40px;
           cursor: pointer;
+
+          @media (max-width: 768px) {
+            width: 30px;
+          }
         }
       }
     }

@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/dist/css/index.css">
   <title>Exercicio MD.21 - O Grinch - Prime Video</title>
 </head>
 <body>
   <header class="header">
     <nav class="header__nav">
+      <div class="menu--mobile">
+        <h3>Menu</h3>
+        <img class="down-icon" src="/src/images/icons/down-icon.png" alt="Visualizar Menu">
+      </div>
       <img class="prime-logo" src="/src/images/logo-prime.png" alt="Prime Video">
       <div class="header__nav__options">
         <div>
@@ -31,10 +38,10 @@
         <div>
           <img class="search-icon" src="/src/images/icons/pesquisar-icon.png" alt="Pesquisar">
         </div>
-        <div>
+        <div class="user--option">
           <h3>Experimente grátis</h3>
         </div>
-        <div>
+        <div class="user--option">
           <h3>PT</h3>
           <img class="down-icon" src="/src/images/icons/down-icon.png" alt="Alterar Idioma">
         </div>
@@ -115,6 +122,81 @@
       Você tem um período de 30 dias para começar a assistir a um vídeo alugado e, após o início, 
       precisa terminar de assistir em 48 horas.
     </p>
+  </section>
+  <section class="mobile">
+    <div class="mobile__logo">
+      <img src="/src/images/prime-logo.png" alt="Prime">
+    </div>
+    <div class="mobile__title">
+      <p class="text--size">Vencedor do OSCAR®</p>
+      <h1>Dr. Seuss' How the Grinch Stole Christmas</h1>
+    </div>
+    <div class="mobile__options">
+      <div class="mobile__options__test">
+        <img src="/src/images/icons/verificado-icon.png" alt="Incluído no Prime Video">
+        <p>Assista com um teste gratuíto do Prime</p>
+      </div>
+      <div class="mobile__options__actions">
+        <div class="mobile__options__actions__watch">
+          <div class="mobile__options__actions__watch__play">
+            <h3>Assistir com o Prime Video</h3>
+            <h4>Experimente 30 dias grátis</h4>
+          </div>
+          <div class="mobile__options__actions__watch__type">
+            <span>Alugar <strong>em HD</strong> por R$9,90</span>
+          </div>
+          <div class="mobile__options__actions__watch__type">
+            <span>Comprar <strong>em HD</strong> por R$29,90</span>
+          </div>
+          <div class="mobile__options__actions__watch__type">
+            <h3>Mais opções de compra/aluguel</h3>
+          </div>
+        </div>
+        <div class="mobile__options__actions__reactions">
+          <span>
+            <img src="/src/images/icons/trailer-icon100.png" alt="Assistir trailer">
+            <p>Trailer</p>
+          </span>
+          <span>
+            <img src="/src/images/icons/adicionar-icon100.png" alt="Adicionar a lista">
+            <p>Lista</p>
+          </span>
+          <span>
+            <img src="/src/images/icons/like-icon.png" alt="Tenho interesse">
+            <p>Curtir</p>
+          </span>
+          <span>
+            <img src="/src/images/icons/dislike-icon.png" alt="Não tenho interesse">
+            <p>Não tenho interesse</p>
+          </span>
+          <span>
+            <img src="/src/images/icons/compartilhar-icon100.png" alt="Compartilhar">
+            <p>Compartilhar</p>
+          </span>
+        </div>
+      </div>
+    </div>
+    <p class="mobile__free--test text--color">
+      Você tem um período de 30 dias para começar a assistir a um vídeo alugado e, após o início, 
+      precisa terminar de assistir em 48 horas.
+    </p>
+    <div class="mobile__about">
+      <p class="text--size mobile__about__synopsis">
+        O Grinch é uma criatura verde e vingativa, que deseja estragar o Natal de todos os moradores da cidade. 
+        Filme estrelado por Jim Carrey.
+      </p>
+      <div class="text--color">
+        <p>IMDb 6,3</p>
+        <p>1h 40min</p>
+        <p>2000</p>
+      </div>
+      <ul class="text--color">
+        <li>Infantil</li>
+        <li>Suave</li>
+        <li>Feliz</li>
+        <li>Ambicioso</li>
+      </ul>
+    </div>
   </section>
 </body>
 </html>
