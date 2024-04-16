@@ -3,6 +3,8 @@
 .header {
   width: 100%;
   height: 6vh;
+  position: sticky;
+  top: 0;
   color: variables.$grayColor;
   background-color: variables.$deepBlueColor;
 
