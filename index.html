@@ -12,9 +12,28 @@
 <body>
   <header class="header">
     <nav class="header__nav">
-      <div class="menu--mobile">
+      <div class="menu--mobile" onClick="menuButton()">
         <h3>Menu</h3>
         <img class="down-icon" src="/src/images/icons/down-icon.png" alt="Visualizar Menu">
+      </div>
+      <div id="menu">
+        <div>
+          <img src="./src/images/icons/home-icon.png" alt="Início">
+          <p>Início</p>
+        </div>
+        <div>
+          <img src="./src/images/icons/bag-icon.png" alt="Loja">
+          <p>Loja</p>
+        </div>
+        <div>
+          <img src="./src/images/icons/tv-icon.png" alt="TV ao vivo">
+          <p>TV ao vivo</p>
+        </div>
+        <div>
+          <img src="./src/images/icons/categorias-icon.png" alt="Categorias">
+          <p>Categorias</p>
+          <img class="menu--down--icon" src="./src/images/icons/down-icon.png" alt="Visualizar">
+        </div>
       </div>
       <img class="prime-logo" src="/src/images/logo-prime.png" alt="Prime Video">
       <div class="header__nav__options">
@@ -47,6 +66,15 @@
         </div>
         <div>
           <img class="user-icon" src="/src/images/icons/usuario-icon.png" alt="Usuário">
+        </div>
+        <div id="user">
+          <div>
+            <p>Experimente grátis</p>
+            <span>PT <img class="menu--down--icon" src="./src/images/icons/down-icon.png" alt="Alterar idioma"></span>
+            <p>Fazer login</p>
+            <p>Ajuda</p>
+            <p>Assista onde quiser</p>
+          </div>
         </div>
       </div>
     </nav>
@@ -198,5 +226,7 @@
       </ul>
     </div>
   </section>
+
+  <script src="./dist/js/index.js"></script>
 </body>
 </html>
